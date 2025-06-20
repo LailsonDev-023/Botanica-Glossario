@@ -14,10 +14,10 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin: 5dvh;
+    margin: 3dvh;
 }
 .imgs img{
-    width: 80px;
+    width: 12vh;
     filter: drop-shadow(0.2px 0.2px 0 black);
 
 }
@@ -41,6 +41,11 @@ main{
     gap: 2dvh;
 
 }
+.imgsColuna{
+    display: flex;
+    flex-direction: column;
+}
+
 .Logos img{
     width: 50px;
 }
