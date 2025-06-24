@@ -1,0 +1,32 @@
+.BuscarLetra{
+    margin: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+
+
+.Letras{
+    padding: 2vh;
+    border: 1px solid #b8b2aa ;
+    box-shadow: 1px 1px 1.2px 1.2px #b8b2aa;
+    border-radius: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Letras ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+    flex-wrap: wrap;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
