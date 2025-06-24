@@ -1,5 +1,6 @@
 .BuscarLetra{
     margin: 5vh;
+    width: 40vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -25,8 +26,20 @@
     flex-wrap: wrap;
 
 }
+
+.Intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2vh;
+}
+.Intro p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 4vh;
 }
