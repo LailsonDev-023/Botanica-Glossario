@@ -23,6 +23,7 @@
     justify-content: center;
     gap: 1vh;
     flex-wrap: wrap;
+    font-family: "Dancing Script", cursive;
 
 }
 
@@ -38,9 +39,8 @@
     box-shadow: 1px 1px 1.2px 1.2px #b8b2aa;
     border-radius: 10px;
     padding: 2vh;
-    font-size: 1.8vh;
-    color: #3a7048;
-    filter: drop-shadow(0.2px 0.2px 0 black);
+    font-size: 1.5vh;
+
 }
 
 .Objetivos{
@@ -57,8 +57,8 @@
     flex-direction: column;
     padding: 2vh;
     gap: 0.6vh;
-    color: #3a7048;
-    filter: drop-shadow(0.3px 0.3px 0 black);
+    font-size: 1.5vh;
+
 }
 .botoes {
     display: flex;
@@ -84,6 +84,7 @@ main{
 }
 section h3{
     text-align: center;
+    font-family: "Dancing Script", cursive;
     color: #3a7048;
     filter: drop-shadow(0.3px 0.3px 0 black);
 }
