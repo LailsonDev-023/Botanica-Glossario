@@ -1,19 +1,18 @@
 .BuscarLetra{
-    margin: 5vh;
     width: 40vh;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    gap: 3vh;
+    align-items: center;
+    gap: 1vh;
 }
 
 
 
 .Letras{
-    padding: 2vh;
+    padding: 1vh;
     border: 1px solid #b8b2aa ;
     box-shadow: 1px 1px 1.2px 1.2px #b8b2aa;
-    border-radius: 10%;
+    border-radius: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -22,7 +21,7 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 2vh;
+    gap: 1vh;
     flex-wrap: wrap;
 
 }
@@ -30,12 +29,52 @@
 .Intro{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    gap: 2vh;
+    gap: 1vh;
+    margin-top: 0;
+
 }
 .Intro p{
-    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #b8b2aa ;
+    box-shadow: 1px 1px 1.2px 1.2px #b8b2aa;
+    border-radius: 10px;
+    padding: 2vh;
+    font-size: 1.8vh;
+    color: #3a7048;
+    filter: drop-shadow(0.2px 0.2px 0 black);
 }
+
+.Objetivos{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.Objetivos ul{
+    border: 1px solid #b8b2aa ;
+    box-shadow: 1px 1px 1.2px 1.2px #b8b2aa;
+    border-radius: 10px;
+    padding-left: 3vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    gap: 0.6vh;
+    color: #3a7048;
+    filter: drop-shadow(0.3px 0.3px 0 black);
+}
+.botoes {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.botoes button{
+    color: white;
+    background-color: #3a7048;
+    border: none;
+    border-radius: 10%;
+    padding: 1vh;
+    
+}
+
+
 main{
     display: flex;
     flex-direction: column;
@@ -43,3 +82,12 @@ main{
     align-items: center;
     padding: 4vh;
 }
+section h3{
+    text-align: center;
+    color: #3a7048;
+    filter: drop-shadow(0.3px 0.3px 0 black);
+}
+section {
+    margin: 1.2vh;
+}
+
