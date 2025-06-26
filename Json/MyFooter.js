@@ -16,9 +16,8 @@ export class MyFooter extends HTMLElement {
             </div>
         </div>
         <p>Desenvolvido por alunos do curso de Agronomia — UFRA Capanema • 2025.1<br>
-            © Todos os direitos reservados</p>
-
-
+            © Todos os direitos reservados
+            </p>
     </footer>
 
 
@@ -50,7 +49,10 @@ export class MyFooter extends HTMLElement {
         footer{
             text-align: center;
             background-color: #dbd4ca;
-            align-self: flex-end;
+            height: 13vh;
+        }
+        footer p{
+            font-size: 1.3vh;
         }
     </style>
 

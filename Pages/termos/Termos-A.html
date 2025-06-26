@@ -10,49 +10,39 @@
     <script type="module" src="/Json/MyLib.js"></script>
 </head>
 <body>
-    <my-header></my-header>
-    <main>
-        <div class="DadosConteiner">
-            <h1>A</h1>
-        </div>
 
+    <div class="_conteiner_">
 
-        <section class="TermoConteiner">
-            <div class="text">
-                <h1>Arbusto:</h1>
-                <h5>Plantas que apresentam caules lenhosos, resistentes, com ramificações próximas ao solo, formando galhos principais que apresentam mais ou menos a mesma espessura, não se definindo no eixo principal.</h5>
-
+        <my-header></my-header>
+        <main>
+            <div class="DadosConteiner">
+                <h1>A</h1>
             </div>
-            <img src="/Img/ImgCapa (3).png" alt="" class="Imgs">
-        </section>
+            
+            <my-termo
+            titulo = "Arbusto"
+            texto = "Plantas que apresentam caules lenhosos, resistentes, com ramificações próximas ao solo, formando galhos principais que apresentam mais ou menos a mesma espessura, não se definindo no eixo principal."
+            imagem= "/Img/ImgCapa (1).png"
+            
+            >
+            </my-termo>
+            <my-termo
+            titulo = "Arbusto"
+            texto = "Plantas que apresentam caules lenhosos, resistentes, com ramificações próximas ao solo, formando galhos principais que apresentam mais ou menos a mesma espessura, não se definindo no eixo principal."
+            imagem= "/Img/ImgCapa (1).png"
+            inverso
+            >
+            </my-termo>
 
-        <style>
-            .TermoConteiner{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 5vh;
-                padding: 1vh;
-                border: 1px solid #b8b2aa ;
-                box-shadow: 1px 1px 1.2px 1.2px #b8b2aa;
-                border-radius: 10px;
-            }
-            .text{
-                width: 50%;
-                display: flex;
-                flex-direction: column;
-            }
-            .text h1{
-                margin-left: -1vh;
-            }
-            .Imgs{
-                width: 40%;
-                height: 50%;
-            }
-        </style>
-
-
-    </main>
-    <my-footer> </my-footer> 
+                <div class="cabecario">
+                    
+                    <my-button onclick="window.location.href = '/Pages/Sumario.html' ">Anterior</my-button>
+                    <h4>1</h4>
+                    <my-button onclick="window.location.href = 'Termos-B.html'">Proximo</my-button>
+        
+                </div>
+        </main>
+        <my-footer> </my-footer> 
+    </div>
 </body>
 </html>

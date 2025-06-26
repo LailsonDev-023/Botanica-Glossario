@@ -7,5 +7,15 @@ body{
     background-color: #f0e6d7;
 
 }
-
+html, body{
+    height: 100%;
+}
+main{
+    flex: 1;
+}
+._conteiner_{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 

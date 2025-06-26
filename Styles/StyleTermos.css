@@ -1,5 +1,7 @@
 main{
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .DadosConteiner{
@@ -7,5 +9,15 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+}
+
+.cabecario{
+    margin: 3vh;
+    height: 5vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
 }
