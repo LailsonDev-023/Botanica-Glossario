@@ -5,7 +5,7 @@ export class MyTermo extends HTMLElement {
 
       const titulo = this.getAttribute('titulo') || 'Nome';
       const texto = this.getAttribute('texto') || 'Explicacao do termo';
-      const imagem = `./Img/termos${titulo.toLowerCase().replace(/\s+/g, '-')}.png`;
+      const imagem = `/img/termos/${titulo.toLowerCase().replace(/\s+/g, '-')}.png`;
       const inverso = this.hasAttribute('inv');
   
       this.shadowRoot.innerHTML = `
