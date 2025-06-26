@@ -5,7 +5,7 @@ export class MyTermo extends HTMLElement {
 
       const titulo = this.getAttribute('titulo') || 'Nome';
       const texto = this.getAttribute('texto') || 'Explicacao do termo';
-      const imagem = `/img/termos/${titulo.toLowerCase().replace(/\s+/g, '-')}.png`;
+      const imagem = `/Img/termos/${titulo.toLowerCase().replace(/\s+/g, '-')}.png`;
       const inverso = this.hasAttribute('inv');
   
       this.shadowRoot.innerHTML = `
@@ -30,7 +30,10 @@ export class MyTermo extends HTMLElement {
                     box-shadow: 1px 1px 1.2px 1.2px #b8b2aa;
                     border-radius: 10px;
                     gap: 2vh;
-
+                    
+                    height: 30vh;
+                    width: 45vh;
+                    
                     flex-direction: ${inverso ? 'row-reverse' : 'row'};
                 }
                 .text{
