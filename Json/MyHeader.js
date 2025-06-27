@@ -11,7 +11,7 @@ export class Myheader extends HTMLElement {
         <div class="liks">
             <nav>
                 <ul>
-                    <li><a href="#">Letras</a></li>
+                    <li><a href="/Pages/Sumario.html">Letras</a></li>
                     <li><a href="/Index.html">Inicio</a></li>
                     <li><a href="#">Sobre</a></li>
                 </ul>
